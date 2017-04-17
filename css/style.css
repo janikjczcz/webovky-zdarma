@@ -1,0 +1,131 @@
+body { 
+	padding-top: 50px;
+	background-color: #fcfcfc;
+}
+
+/* odsazeni */
+#hotoveWeby{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#coZiskam {
+	padding-top: 60px;
+}
+
+#kontakt {
+	margin-bottom: 30px;
+}
+
+/* barvicky
+cervena: #D9534F */
+
+
+/* navigace */
+.navbar-default{
+  background: #fcfcfc;
+  background-image:none;
+  border-color: transparent;
+  box-shadow:none;
+}
+
+.navbar-default .navbar-brand{
+	color: #D9534F;
+	font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #555;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #D9534F;
+  font-weight: 700;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #D9534F;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #555;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
+  background-color: #D9534F;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #555;
+}
+
+/* uvod */
+.jumbotron-uvod {
+    background-image: url('http://imgh.us/uvod-cover2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.jumbotron-uvod > .container > .row > .col-xs-12 > h1 {
+	margin-top: 200px;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.jumbotron-uvod > .container > .row > .col-xs-12 > h4 {
+	color: #ffffff;
+	font-weight: 500;
+	margin: 25px 0 25px 0;
+}
+
+.red {
+	color: #D9534F;
+	font-weight: 700;
+}
+
+
+/* co ziskam */
+.coZiskam > .col-xs-12, .coZiskam > .col-sm-6 {
+	text-align: center;
+}
+
+.coZiskam > .col-xs-12 {
+	margin-bottom: 60px;
+}
+
+#coZiskam {
+	background-color: #fefefe;
+}
+
+/* hotove weby */
+#hotoveWeby {
+	/*height: 550px;*/
+	height: 250px;
+	background-image: url('http://imgh.us/portfolio.jpg');
+	background-size: cover;
+}
+
+#hotoveWeby h2 , #hotoveWeby p , #hotoveWeby h4 {
+	color: #fff;
+}
+
+#hotoveWeby h2 {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/* kontakt */
+#kontakt h2 {
+	padding-bottom: 20px;
+}
+
+#kontakt a , #kontakt a:hover {
+	color: #d9534f;
+}
+
+/* paticka */
+footer p a , footer p a:hover {
+	color: #d9534f;
+}

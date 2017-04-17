@@ -1,2 +1,2 @@
 # webovky-zdarma
-Webove stranky zdarma
+Webové stránky zdarma pro každého
