@@ -62,7 +62,7 @@ cervena: #D9534F */
 
 /* uvod */
 .jumbotron-uvod {
-    background-image: url('http://imgh.us/uvod-cover2.jpeg');
+    background-image: url('../img/uvod-cover_small.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
@@ -103,7 +103,7 @@ cervena: #D9534F */
 #hotoveWeby {
 	/*height: 550px;*/
 	height: 250px;
-	background-image: url('http://imgh.us/portfolio.jpg');
+	background-image: url('../img/portfolio_small.jpg');
 	background-size: cover;
 }
 
@@ -128,4 +128,19 @@ cervena: #D9534F */
 /* paticka */
 footer p a , footer p a:hover {
 	color: #d9534f;
+}
+
+/* responsive */
+@media only screen and (min-width: 768px) {
+	.jumbotron-uvod {
+    background-image: url('../img/uvod-cover2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	#hotoveWeby {
+	/*height: 550px;*/
+	background-image: url('../img/portfolio.jpg');
+	background-size: cover;
+	}
 }
